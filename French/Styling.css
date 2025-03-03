@@ -1,0 +1,20 @@
+.card {
+ font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Noto Sans JP", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "MS UI Gothic", sans-serif;
+ font-size: 44px;
+ text-align: center;
+}
+
+/* open for change 
+original: width = 300px, height = 250px
+*/
+img {
+max-width: 300px;
+max-height: 250px;
+}
+
+.mobile img {
+max-width: 50vw;
+}
+
+/* This part defines the bold color. */
+b{color: #5586cd}
