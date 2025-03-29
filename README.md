@@ -17,3 +17,5 @@ Anki note types for word mining using TV. Based on Kaishi 1.5k's note type.
     2. In `Back Template` paste `BackTemplate.html` 
     3. In Styling paste `Styling.css` 
 6. click `save` 
+# Credits
+[Kaishi 1.5k](https://github.com/donkuri/Kaishi/)
