@@ -5,8 +5,8 @@ My Anki Note types
 
 | Japanese      | French        |
 | :-------------: | :-------------: |
-| <img src="res/Word_Mining_JP_Front.png" width="200"/>  | <img src="res/Word_Mining_Front.png" width="200"/>   |
-| <img src="res/Word_Mining_JP_Back.png" width="200"/>   | <img src="res/Word_Mining_Back.png" width="200"/>   |
+| <img src="res/Word_Mining_JP_Front.png" width="400"/>  | <img src="res/Word_Mining_Front.png" width="400"/>   |
+| <img src="res/Word_Mining_JP_Back.png" width="400"/>   | <img src="res/Word_Mining_Back.png" width="400"/>   |
 
 # Set up
 1. In Anki click onto `Tools > manage note types`
