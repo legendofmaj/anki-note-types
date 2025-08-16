@@ -1,6 +1,5 @@
-/* This style was developed by the Kaishi 1.5k team and is soley a modification */
 .card {
-    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Noto Sans JP", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "MS UI Gothic", sans-serif;
+    font-family: "Noto Sans JP", Roboto;
     font-size: 20px;
     text-align: center;
    }
@@ -14,5 +13,4 @@
    max-width: 50vw;
    }
    
-   /* This part defines the bold color. */
-   b{color: #5586cd}
+   b{color: #e78284}
