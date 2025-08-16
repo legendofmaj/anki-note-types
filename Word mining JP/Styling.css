@@ -1,0 +1,20 @@
+.card 
+{
+    /* instead of Roboto, Red Hat Display and sans-serif might be good */
+    font-family: "Noto Sans JP", Roboto;
+    font-size: 20px;
+    text-align: center;
+}
+   
+img {
+    max-width: 400px;
+    max-height: 300px;
+}
+   
+.mobile img 
+{
+    max-width: 50vw;
+}
+   
+/* accent color */
+b{color: #e78284}
