@@ -3,10 +3,18 @@
 
   <hr id=answer>
 
-  <u>formula</u>
-  {{formula}} <br> <br>
-  <u>unit</u> <br> <br>
-  {{unit}} <br> <br>
-  <u>additional notes</u> <br> <br>
-  {{additional notes}}
+  {{#formula}}
+  <div style='font-size: 20px;'><u>formula</u></div>
+  <div style='font-size: 20px; padding-top: 10px; padding-bottom: 20px;'>{{formula}}</div>
+  {{/formula}}
+
+  {{#unit}}
+  <div style='font-size: 20px;'><u>unit</u></div>
+  <div style='font-size: 20px; padding-top: 10px; padding-bottom: 20px;'>{{unit}}</div>
+  {{/unit}}
+
+  {{#additional notes}}
+  <div style='font-size: 20px;'><u>additional notes</u></div>
+  <div style='font-size: 20px; padding-top: 10px;'>{{additional notes}}</div>
+  {{/additional notes}}
 </div>
