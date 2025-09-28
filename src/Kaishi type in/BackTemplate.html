@@ -1,0 +1,39 @@
+<div lang="ja">
+	<div style='font-size: 44px;'>{{furigana:Word Furigana}}</div>
+
+	<!-- This part enables pitch accent.
+
+	{{#Pitch Accent}}
+		<br><div style='font-size: 24px'>{{Pitch Accent}}</div>
+	{{/Pitch Accent}} 
+
+	-->
+
+	<hr> <!-- use `<hr id="answer">` to make the card scroll to the buttom when answering -->
+	{{type:Word Meaning}}
+
+	<div style='font-size: 25px; padding-top: 20px;'>{{furigana:Sentence Furigana}}</div>
+	<div style='font-size: 25px; padding-top: 10px;'>{{Sentence Meaning}}</div>
+
+	<div style='padding-top: 20px;'>{{Word Audio}}
+	{{Sentence Audio}}
+	</div>
+	<div style='padding-top: 20px;'>{{Picture}}</div>
+
+	{{#Notes}}
+		<br>
+		<div style="font-size: 20px; padding-top:12px">Note: {{Notes}}</div>
+	{{/Notes}}
+
+	<!-- This part enables pitch accent notes.
+
+	{{#Pitch Accent Notes}}
+	<div style="font-size: 20px; width: fit-content; max-width:40vw; margin: auto">
+		<details><summary>Pitch Accent Notes</summary>
+			<br>{{Pitch Accent Notes}}
+		</details>
+	</div>
+	{{/Pitch Accent Notes}}
+
+	-->
+</div>
