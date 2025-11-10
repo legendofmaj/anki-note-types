@@ -1,0 +1,40 @@
+<!-- Box Containing Word, Audio and Picture -->
+<div class="row">
+    <div class="column"'>
+      <!-- Box containing Word and Audio -->
+      <div class="container">
+					{{Word}}
+					{{Audio}}
+				</div>
+    </div>
+
+    <!-- Box containing image -->
+    <div class="column">
+      <div class="container">
+        <div class="center">{{Picture}}</div>
+      </div>
+    </div>
+</div>
+
+<!-- Sentence -->
+<div>
+    <div class="sentence">
+      {{Sentence}}
+    </div>
+</div>
+
+<!-- Box containing dictionary definition -->
+<div>
+    <div class="container" style="font-size: 20px;">
+      {{Word Meaning}}
+    </div>
+</div>
+
+<!-- Notes -->
+<div>
+    {{#Notes}}
+        <div style='font-size: 20px; padding-top:20px;'>
+          Note: {{Notes}}
+        </div>
+    {{/Notes}}
+</div>
