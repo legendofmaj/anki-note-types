@@ -1,28 +1,31 @@
 .card {
-  font-family: "Noto Sans JP", Red Hat Text;
+  font-family: "Red Hat Text", "Noto Sans JP", "Roboto";
   font-size: 44px;
   text-align: center;
   color: #4c4f69;
   background-color: #eff1f5;
-  
 }
 .card.nightMode {
   color: #cad3f5;
   background-color: #24273a;
 }
 
+.mobile .card.nightMode {
+  color: white;
+  background-color: #3d3d3d;
+}
 
 /* open for change 
 original: width = 300px, height = 250px
 */
 img {
-max-width: 200px;
-max-height: 200px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .mobile img {
-max-width: 200px;
-max-height: 200px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 /* This part defines the bold color. */
@@ -42,8 +45,12 @@ b{color: #ed8796}
   position: relative;
 }
 
-.nightMode .container{
+.nightMode .container {
   --background: #1e2030;
+}
+
+.mobile .nightMode .container {
+  --background: #303030;
 }
 
 .sentence {
