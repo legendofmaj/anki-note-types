@@ -19,13 +19,9 @@
 original: width = 300px, height = 250px
 */
 img {
-  max-width: 200px;
-  max-height: 200px;
-}
-
-.mobile img {
-  max-width: 200px;
-  max-height: 200px;
+  max-height: 400px;
+  width: auto;
+  border-radius: 10px;
 }
 
 /* This part defines the bold color. */
@@ -36,7 +32,7 @@ a{color: #ed8796}
 .container {
   --background: #e6e9ef;
 	
-	border-radius: 10px;
+  border-radius: 10px;
   background-color: var(--background);
   line-height: 1.75em;
   text-align: center;
@@ -44,6 +40,12 @@ a{color: #ed8796}
   margin: 5px auto;
   overflow: hidden;
   position: relative;
+}
+
+.image-container {
+  font-size: 0;
+  padding: 0px 0px;
+  margin: 0px 0px;
 }
 
 .nightMode .container {
@@ -62,17 +64,16 @@ a{color: #ed8796}
 
 .row {
   display: flex;
-	/*align-items:center;*/
+	 align-items: flex-start;
 }
 
 .column {
   flex: 1;
-	padding: 10px;
+	 padding: 10px;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  max-width: 400px;
+  position: relative;
+  font-size: 0;
 }
