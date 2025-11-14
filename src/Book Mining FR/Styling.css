@@ -24,7 +24,7 @@ img {
   border-radius: 10px;
 }
 
-/* This part defines the bold color. */
+/* bold color and link color */
 b{color: #ed8796}
 a{color: #ed8796}
 
@@ -40,12 +40,6 @@ a{color: #ed8796}
   margin: 5px auto;
   overflow: hidden;
   position: relative;
-}
-
-.image-container {
-  font-size: 0;
-  padding: 0px 0px;
-  margin: 0px 0px;
 }
 
 .nightMode .container {
@@ -64,12 +58,12 @@ a{color: #ed8796}
 
 .row {
   display: flex;
-	 align-items: flex-start;
+	align-items: flex-start;
 }
 
 .column {
   flex: 1;
-	 padding: 10px;
+	padding: 10px;
 }
 
 .center {
