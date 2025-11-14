@@ -1,18 +1,51 @@
+:root{
+  /* --desktop variables-- */
+  /* light */
+  --background-color-light: #eff1f5;
+  --container-background-light: #e6e9ef;
+  --text-color-light: #4c4f69;
+  
+  /* dark */
+  --background-color-dark: #24273a;
+  --container-background-dark: #1e2030;
+  --text-color-dark: #cad3f5;
+
+  /* --mobile variables-- */
+  /* light */
+  --background-color-light-mobile: #eff1f5;
+  --container-background-light-mobile: #e6e9ef;
+  --text-color-light-mobile: #4c4f69;
+
+  --background-color-dark-mobile: #3d3d3d;
+  --container-background-dark-mobile: #303030;
+  --text-color-dark-mobile: white;
+  
+
+  --accent-color: #ed8796;
+
+}
+
 .card {
   font-family: "Red Hat Text", "Noto Sans JP", "Roboto";
   font-size: 44px;
   text-align: center;
-  color: #4c4f69;
-  background-color: #eff1f5;
+  color: var(--text-color-light);
+  background-color: var(--background-color-light);
 }
+
+.mobile .card {
+  color: var(--text-color-light-mobile);
+  background-color: var(--background-color-light-mobile);
+}
+
 .card.nightMode {
-  color: #cad3f5;
-  background-color: #24273a;
+  color: var(--text-color-dark);
+  background-color: var(--background-color-dark);
 }
 
 .mobile .card.nightMode {
-  color: white;
-  background-color: #3d3d3d;
+  color: var(--text-color-dark-mobile);
+  background-color: var(--background-color-dark-mobile);
 }
 
 /* open for change 
@@ -24,16 +57,12 @@ img {
   border-radius: 10px;
 }
 
-/* bold color and link color */
-b{color: #ed8796}
-a{color: #ed8796}
+b{color: var(--accent-color);}
+a{color: var(--accent-color);}
 
-/* Definition container */
 .container {
-  --background: #e6e9ef;
-	
-  border-radius: 10px;
-  background-color: var(--background);
+	border-radius: 10px;
+  background-color: var(--container-background-light);
   line-height: 1.75em;
   text-align: center;
   padding: 0.5em 10px;
@@ -41,13 +70,14 @@ a{color: #ed8796}
   overflow: hidden;
   position: relative;
 }
-
 .nightMode .container {
-  --background: #1e2030;
+  background-color: var(--container-background-dark);
 }
-
+.mobile .container {
+  background-color: var(--container-background-light-mobile);
+}
 .mobile .nightMode .container {
-  --background: #303030;
+  background-color: var(--container-background-dark-mobile);
 }
 
 .sentence {
@@ -58,15 +88,19 @@ a{color: #ed8796}
 
 .row {
   display: flex;
+  flex-direction: row;
 	align-items: flex-start;
 }
 
 .column {
-  flex: 1;
 	padding: 10px;
 }
 
-.center {
+.definition {
+  flex-grow: 1;
+}
+
+.picture {
   max-width: 400px;
   position: relative;
   font-size: 0;
