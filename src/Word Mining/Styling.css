@@ -4,11 +4,13 @@
   --background-color-light: #eff1f5;
   --container-background-light: #e6e9ef;
   --text-color-light: #4c4f69;
+  --accent-color-light: #d20f39;
   
   /* dark */
   --background-color-dark: #24273a;
   --container-background-dark: #1e2030;
   --text-color-dark: #cad3f5;
+  --accent-color-dark: #ed8796;
 
   /* --mobile variables-- */
   /* light */
@@ -20,8 +22,6 @@
   --background-color-dark-mobile: #3d3d3d;
   --container-background-dark-mobile: #303030;
   --text-color-dark-mobile: white;
-  
-  --accent-color: #ed8796;
 }
 
 .card {
@@ -44,8 +44,10 @@
   background-color: var(--background-color-dark-mobile);
 }
 
-b{color: var(--accent-color);}
-a{color: var(--accent-color);}
+b{color: var(--accent-color-light);}
+.nightMode b{color: var(--accent-color-dark);}
+a{color: var(--accent-color-light);}
+.nightMode a{color: var(--accent-color-dark);}
 
 .row {
   display: flex;
