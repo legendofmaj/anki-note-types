@@ -98,3 +98,7 @@ img {
   position: relative;
   font-size: 0;
 }
+
+.picture:hover {
+  opacity: 0.3;
+}
