@@ -1,30 +1,18 @@
 # About
-My Anki Note types
+My Anki Note Types
 
 # Showcase
 
-| [Japanese](src/Word%20mining%20JP)                     | [French](src/Word%20mining)                          |
-| :----------------------------------------------------: | :--------------------------------------------------: |
-| <img src="res/Word_Mining_JP_Front.png" width="400"/>  | <img src="res/Word_Mining_Front.png" width="400"/>   |
-| <img src="res/Word_Mining_JP_Back.png" width="400"/>   | <img src="res/Word_Mining_Back.png" width="400"/>    |
+| [Word Mining](src/Word%20mining%20)                     | [Physics](src/physics)                               |   [Kaishi 1.5k (type in)](src/Kaishi%20type%20in/)   |
+| :----------------------------------------------------:  | :--------------------------------------------------: | :--------------------------------------------------------:|
+| <img src="assets/Word_Mining_Front.png" width="400"/>  | <img src="assets/Physics_Front.png" width="400"/>   | <img src="assets/Kaishi_1.5k_(type_in)_Front.png" width="400"/>
+| <img src="assets/Word_Mining_Back.png" width="400"/>   | <img src="assets/Physics_Back.png" width="400"/>    | <img src="assets/Kaishi_1.5k_(type_in)_Back.png" width="400"/>
 
-# Set up
-1. In Anki click onto `Tools > manage note types`
-2. create a new note type 
-    - click `add` then `basic` then `ok` 
-3. add the following fields to it: 
-    1. `Word` 
-    2. `Word Meaning` 
-    3. `Sentence` 
-    4. `Sentence Meaning` 
-    5. `Picture` 
-    6. `Notes`
-4. click `save` 
-5. open `cards` 
-    1. In `Front Template` paste `FrontTemplate.html` 
-    2. In `Back Template` paste `BackTemplate.html` 
-    3. In Styling paste `Styling.css` 
-6. click `save`
+# Installation
+1. Download the `.apkg` files you want from the [release page](https://github.com/anki-note-types) or the [release folder](release/).
+2. Open Anki and click on `Import file`.
+3. Select the `.apkg` you downloaded.
 
 # Credits
-[Kaishi 1.5k](https://github.com/donkuri/Kaishi/)
+[Word Mining](src/Word%20Mining/) was inspired by [Lapis](https://github.com/donkuri/lapis). <br>
+[Kaishi 1.5k (type in)](src/Kaishi%20type%20in/) is a modification of [Kaishi 1.5k](https://github.com/donkuri/Kaishi/).
