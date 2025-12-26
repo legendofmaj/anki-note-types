@@ -14,7 +14,7 @@ My Anki Note Types
 |<img src="assets/Physics_Back.png" width="400"/>    |<img src="assets/Kaishi_1.5k_(type_in)_Back.png" width="400"/> |
 
 # Installation
-1. Download the `.apkg` files you want from the [release page](https://github.com/anki-note-types) or the [release folder](release/).
+1. Download the `.apkg` files you want from the [release page](https://github.com/legendofmaj/anki-note-types/releases/latest/) or the [release folder](release/).
 2. Open Anki and click on `Import file`.
 3. Select the `.apkg` you downloaded.
 
